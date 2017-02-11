@@ -16,7 +16,7 @@ function addCorsHeaders (request, reply) {
   }
 
   response.statusCode = 200
-  response.headers['access-control-expose-headers'] = 'content-type, content-length, etag'
+  response.headers['access-control-expose-headers'] = 'content-type, content-length, etag, location'
   response.headers['access-control-max-age'] = 60 * 10 // 10 minutes
   // dynamically set allowed headers & method
   if (request.headers['access-control-request-headers']) {
