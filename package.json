@@ -2,6 +2,7 @@
   "name": "hapi-cors-headers",
   "description": "hapi extension to enable CORS",
   "main": "index.js",
+  "version": "1.0.0",
   "scripts": {
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "pretest": "standard",
